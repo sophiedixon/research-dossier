@@ -1,0 +1,64 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #1c1c1c;
+    color: #fff;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    font-size: 1.07em;
+}
+
+h1 {
+    font-weight: lighter;
+    letter-spacing: 8px;
+}
+
+#accordion div {
+    display: none;
+}
+
+a {
+    display: block;
+    color: #fff;
+    padding-left: 27px;
+    height: 60px;
+    line-height: 60px;
+    text-decoration: none;
+    /*font-family: 'PT Sans', sans-serif;*/
+    font-size: .8em;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+
+a span {
+    width: 25px;
+    display: inline-block;
+}
+
+a.research{
+    /*background: #29274C;*/
+}
+
+a.project{
+    /*background: #EED3AD;
+    color: #29274C;*/
+}
+
+a.open .fa-plus{
+    display: none;
+}
+
+a.open .fa-minus{
+    display: inline;
+}
+
+a.closed .fa-plus{
+    display: inline;
+}
+
+a.closed .fa-minus{
+    display: none;
+}
+
+p {
+    line-height: 1.25em;
+}
