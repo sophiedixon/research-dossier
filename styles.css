@@ -7,58 +7,78 @@ body {
     font-size: 1.07em;
 }
 
+header {
+    width: 800px;
+    margin: auto;
+    padding: 40px 0 0 0;
+}
+
 h1 {
     font-weight: lighter;
     letter-spacing: 8px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+h1 span {
+    font-size: 2em;
+}
+
+h2 {
+    margin: 40px 0 0 0;
+    font-size: 1em;
+    text-align: center;
+    font-weight: lighter;
+    line-height: 2em;
+}
+
+main {
+    width: 800px;
+    margin: auto;
+    padding: 40px 0 40px 0;
 }
 
 #accordion div {
     display: none;
 }
 
-a {
+#accordion > a {
     display: block;
     color: #fff;
-    padding-left: 27px;
     height: 60px;
     line-height: 60px;
     text-decoration: none;
     /*font-family: 'PT Sans', sans-serif;*/
-    font-size: .8em;
+    font-size: 1em;
     text-transform: uppercase;
     letter-spacing: 8px;
+    text-align: center;
 }
 
-a span {
-    width: 25px;
+#accordion > a span {
+    width: 35px;
     display: inline-block;
 }
 
-a.research{
-    /*background: #29274C;*/
-}
-
-a.project{
-    /*background: #EED3AD;
-    color: #29274C;*/
-}
-
-a.open .fa-plus{
+#accordion > a.open .fa-plus{
     display: none;
 }
 
-a.open .fa-minus{
+#accordion > a.open .fa-minus{
     display: inline;
 }
 
-a.closed .fa-plus{
+#accordion > a.closed .fa-plus{
     display: inline;
 }
 
-a.closed .fa-minus{
+#accordion > a.closed .fa-minus{
     display: none;
 }
 
 p {
-    line-height: 1.25em;
+    font-size: .9em;
+    line-height: 1.7em;
+    text-align: justify;
+    text-justify: inter-word; 
 }

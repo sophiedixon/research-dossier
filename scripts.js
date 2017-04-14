@@ -14,7 +14,7 @@ $(function() {
 
     function openItem($a){
         var divId = $a.attr("href");
-        $(divId).slideDown('fast');        
+        $(divId).slideDown('slow');        
         $a.removeClass('closed').addClass('open');
         // close all other items
         $links.not("[href='" + divId + "']").each(function(index, a){
@@ -24,7 +24,7 @@ $(function() {
     
     function closeItem($a){
         var divId = $a.attr("href");
-        $(divId).slideUp('fast');        
+        $(divId).slideUp('slow');        
         $a.removeClass('open').addClass('closed');
     }
 
