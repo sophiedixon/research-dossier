@@ -13,6 +13,21 @@ header {
     padding: 40px 0 0 0;
 }
 
+header.image {
+    padding: 0px;
+    position: relative;
+}
+
+header.image img {
+    margin: auto;
+    display: block;
+}
+
+header.image h1 {
+    position: absolute;
+    top: 60px;
+}
+
 h1 {
     font-weight: lighter;
     letter-spacing: 8px;
@@ -33,7 +48,7 @@ h2 {
 }
 
 main {
-    width: 800px;
+    width: 900px;
     margin: auto;
     padding: 40px 0 40px 0;
 }
@@ -80,5 +95,16 @@ p {
     font-size: .9em;
     line-height: 1.7em;
     text-align: justify;
-    text-justify: inter-word; 
+    text-justify: inter-word;
+    overflow: hidden;
+}
+
+#loci {
+    float: left;
+    padding: 0 0 0 40px;
+}
+
+#chorus {
+    float: right;
+    padding: 0 40px 0 0;
 }

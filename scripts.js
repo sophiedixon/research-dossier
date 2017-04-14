@@ -1,6 +1,6 @@
 $(function() {
     var $accordionItems = $('#accordion div');
-    var $links = $("#accordion a");
+    var $links = $("#accordion > a");
 
     function resize(){
 
@@ -42,5 +42,5 @@ $(function() {
     });
     
     // display the first item by default
-    openItem($("#accordion a").first());
+    openItem($("#accordion > a").first());
 });
