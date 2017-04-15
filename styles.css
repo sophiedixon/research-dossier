@@ -14,7 +14,7 @@ header {
 }
 
 header.image {
-    padding: 0px;
+    padding: 10px 0 0 0;
     position: relative;
 }
 
@@ -47,10 +47,29 @@ h2 {
     line-height: 2em;
 }
 
+h3 {
+    margin: 1em 0 1em 0;
+    font-size: 1em;
+    text-align: center;
+    font-weight: lighter;
+    line-height: 2em;
+}
+
+blockquote {
+    text-align: center;
+    font-style: italic;
+}
+
 main {
     width: 900px;
     margin: auto;
     padding: 40px 0 40px 0;
+}
+
+footer {
+    width: 900px;
+    margin: auto;
+    padding: 0 0 40px 0;
 }
 
 #accordion div {
@@ -73,6 +92,7 @@ main {
 #accordion > a span {
     width: 35px;
     display: inline-block;
+    font-size: 0.75em;
 }
 
 #accordion > a.open .fa-plus{
@@ -107,4 +127,19 @@ p {
 #chorus {
     float: right;
     padding: 0 40px 0 0;
+}
+
+a.downloadpdf {
+    color: #fff;
+    text-decoration: none;
+}
+
+a.downloadpdf span {
+    margin: 0 10px 0 0;
+}
+
+.totop {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px 0 0;
 }
