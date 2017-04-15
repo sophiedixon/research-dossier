@@ -7,6 +7,33 @@ body {
     font-size: 1.07em;
 }
 
+h1, h2, h3 {
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+h1, h3 {
+    letter-spacing: 8px;
+}
+
+h2 {
+    letter-spacing: 2px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.back {
+    font-size: 0.8em;
+}
+
+.back i {
+    margin: 0 5px 0 0;
+    font-size: 0.8em;
+}
+
 header {
     width: 800px;
     margin: auto;
@@ -14,12 +41,12 @@ header {
 }
 
 header.image {
-    padding: 10px 0 0 0;
+    padding: 20px 0 0 0;
     position: relative;
 }
 
 header.image img {
-    margin: auto;
+    margin: 170px auto 0px auto;
     display: block;
 }
 
@@ -28,9 +55,65 @@ header.image h1 {
     top: 60px;
 }
 
-h1 {
+header.image ul {
+    position: absolute;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header.image ul.loci {
+    top: 130px;
+    left: 330px;
+}
+
+header.image ul.chorus {
+    top: 110px;
+    left: 410px;
+}
+
+header.image ul li {
+    margin: 2px 0 2px 0;
+}
+
+header.image ul li.first {
+}
+
+header.image ul li.second {
+    margin: 0 0 0 12px;
+}
+
+header.image ul li.third {
+ margin: 0 0 0 24px;
+}
+
+header.image ul li a {
     font-weight: lighter;
-    letter-spacing: 8px;
+    letter-spacing: 6px;
+    font-size: 0.6em;
+    white-space: nowrap;
+}
+
+header.image ul li a i {
+    margin: 0 10px 0 0;
+}
+
+.rotate {
+
+    /* Safari */
+    -webkit-transform: rotate(-30deg);
+
+    /* Firefox */
+    -moz-transform: rotate(-30deg);
+
+    /* IE */
+    -ms-transform: rotate(-30deg);
+
+    /* Opera */
+    -o-transform: rotate(-30deg);
+}
+
+h1 {
     font-size: 1.5em;
     text-align: center;
 }
@@ -78,11 +161,8 @@ footer {
 
 #accordion > a {
     display: block;
-    color: #fff;
     height: 60px;
     line-height: 60px;
-    text-decoration: none;
-    /*font-family: 'PT Sans', sans-serif;*/
     font-size: 1em;
     text-transform: uppercase;
     letter-spacing: 8px;
@@ -129,17 +209,10 @@ p {
     padding: 0 40px 0 0;
 }
 
-a.downloadpdf {
-    color: #fff;
-    text-decoration: none;
-}
-
 a.downloadpdf span {
     margin: 0 10px 0 0;
 }
 
 .totop {
-    color: #fff;
-    text-decoration: none;
     margin: 0 10px 0 0;
 }
