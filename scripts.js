@@ -40,7 +40,6 @@ $(function() {
             closeItem($a);
         }
     });
-    
-    // display the first item by default
-    //openItem($("#accordion > a").first());
+
+    openItem($("#accordion > a.open"));
 });
