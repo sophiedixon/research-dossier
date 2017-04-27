@@ -7,9 +7,20 @@ body {
     font-size: 1.07em;
 }
 
-h1, h2, h3 {
-    text-transform: uppercase;
+h1 {
     font-weight: lighter;
+}
+
+h2 {
+    font-weight: lighter;
+}
+
+h3 {
+    font-weight: lighter;
+}
+
+h1, h2, h3,{
+    text-transform: uppercase;
 }
 
 h1, h3 {
@@ -73,18 +84,42 @@ header.image ul.chorus {
 }
 
 header.image ul li {
-    margin: 2px 0 2px 0;
+    margin: 20px 0 20px 0;
 }
 
 header.image ul li.first {
 }
 
 header.image ul li.second {
-    margin: 0 0 0 12px;
+    margin-left: 12px;
 }
 
 header.image ul li.third {
- margin: 0 0 0 24px;
+    margin-left: 24px;
+}
+
+header.image ul li.fourth {
+    margin-left: 36px;
+}
+
+header.image ul li.fifth {
+    margin-left: 48px;
+}
+
+header.image ul li.sixth {
+    margin-left: 60px;
+}
+
+header.image ul li.seventh {
+    margin-left: 72px;
+}
+
+header.image ul li.eighth {
+    margin-left: 84px;
+}
+
+header.image ul li.ninth {
+    margin-left: 96px;
 }
 
 header.image ul li a {
@@ -199,6 +234,11 @@ p {
     overflow: hidden;
 }
 
+p img {
+    display: block;
+    margin: auto;
+}
+
 #loci {
     float: left;
     padding: 0 0 0 40px;
@@ -210,6 +250,12 @@ p {
 }
 
 a.downloadpdf span {
+    margin: 0 10px 0 0;
+}
+
+}
+
+a.video span {
     margin: 0 10px 0 0;
 }
 
