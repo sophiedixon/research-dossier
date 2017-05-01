@@ -4,7 +4,10 @@
         <link rel="stylesheet" type="text/css" href="styles.css" />
         <link href='https://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
         <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
+        <link href='https://cdnjs.cloudflare.com/ajax/libs/mediaelement/4.0.7/mediaelementplayer.css' rel='stylesheet' type='text/css'>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-rc1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/4.0.7/mediaelement.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/4.0.7/mediaelementplayer.js"></script>
     </head>
     <body>
 
@@ -14,13 +17,60 @@
         </header>
 
         <main>
+
             <div id="video">
-                <video width="600" height="338" src="Visual_Abstract_comp.mp4" controls />
+                <video class="mejs__player" poster="img/hands-intro.png" width="600" height="338" src="http://sophiedixon-web-assets.s3.amazonaws.com/research-dossier/visual-abstract.mp4" />
             </div>
-            <div id="projects">
-                <a href="srbska.html"><img src="img/srbska.png" /></a>
-                <a href="loci.html"><img src="img/loci.png" /></a>
-                <a href="chorus.html"><img src="img/chorus.png" /></a>
+
+            <div id="accordion">
+
+                <a class="about closed" href="#one"><span><i class="fa fa-minus fa-lg"></i><i class="fa fa-plus fa-lg"></i></span>Introduction</a>
+                <div id="one">
+                    <p>
+                        <blockquote cite="http://www.goodreads.com/quotes/511667-every-moment-happens-twice-inside-and-outside-and-they-are">
+                        "Every moment happens twice: inside and outside, and they are two different histories."
+                        ― Zadie Smith
+                        </blockquote>
+                    </p>
+                    <p>
+                    My past projects have focused on events at the centre of sudden and irrevocable change. Working with the Sudetenland expulsions of 1946 and the rapid demise of the coal mining industry in France and the UK, I am fascinated by what happens between such events and our later interpretations of them.
+                    </p>
+                    <p>
+                    I am less concerned with historical representations of these places and events than I am with uncovering the stories of the people who experienced them. I have come to understand these stories as creations borne of accumulation, modification and forgetting. They present us with versions of a past which are constantly re-membered, as in ‘reassembled’, again in the present. 
+                    </p>
+                    <p>
+                    The question at the heart of my research is how can I uncover these places and events which are embodied within this process of remembering? And in turn, how can I reveal this process as an experience into which the viewer can enter?    
+                    </p>
+                    <p>
+                    The objective of my research is twofold. First, how to uncover events and places in the past through the perspective of those who remember them. Second, how to open these places in memory to the viewer, as ‘real’ spaces which act as a catalyst for new narratives and perspectives. 
+                    </p> 
+                    <p>
+                    I am presenting my research project within the context of two experiments. The first a recreation of a ‘place in memory’ using Virtual Reality (VR), and the second a Mixed Reality (MR) experiment integrating virtual artefacts within real spaces. A detailed description of these experiments and the research behind them can be found under ‘work'.
+                    </p>
+                    <p>
+                    The village of Srbská in the Czech Republic, formerly named Wünschendorf, provides the context for my research. It is a place I have come to know intimately over the past decade and which I describe in further detail under ‘place’.
+                    </p>   
+                </div>
+                
+                <a class="context closed" href="#two"><span><i class="fa fa-minus fa-lg"></i><i class="fa fa-plus fa-lg"></i></span>Place</a>
+                <div id="two">
+                    <p>
+                    Srbská, previously named Wünschendorf was once a thriving village with hundreds of houses and residents. In 1946 its entire ethnic German population were exiled, and since that time it has fallen to ruin, disappearing almost entirely from the map.
+                    </p>
+                    <p>
+                    When I moved there in 2007 I had no idea of its past, of what had been there before but over the years the sensation of absence which permeates Srbská was for me occupied by fragments of stories, of glimpses into a village which had been dis-membered. To find these stories I have sought the testimonies of those who remember the village, namely a group of elderly Germans,  who, exiled from the village in 1946 returned annually between 2009 - 2016 to remember the village of Wünschendorf. 
+                    </p>
+                </div>
+
+                <a class="work open" href="#three"><span><i class="fa fa-minus fa-lg"></i><i class="fa fa-plus fa-lg"></i></span>Work</a>
+                <div id="three">
+                    <div id="projects">
+                        <a href="srbska.html"><img src="img/srbska.png" /></a>
+                        <a href="loci.html"><img src="img/loci.png" /></a>
+                        <a href="chorus.html"><img src="img/chorus.png" /></a>
+                    </div>
+                </div>
+
             </div>
         </main>
         

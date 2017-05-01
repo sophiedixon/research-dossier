@@ -1,5 +1,5 @@
 $(function() {
-    var $accordionItems = $('#accordion div');
+    var $accordionItems = $('#accordion > div');
     var $links = $("#accordion > a");
 
     function resize(){
@@ -42,4 +42,12 @@ $(function() {
     });
 
     openItem($("#accordion > a.open"));
+
+    $('video, audio').mediaelementplayer({
+        // Configuration
+        success: function(media) {
+
+        }
+    });
+
 });
