@@ -79,13 +79,13 @@ header.project ul {
 }
 
 header.project ul.loci {
-    top: 70px;
-    left: 270px;
+    top: 92px;
+    left: 262px;
 }
 
 header.project ul.chorus {
-    top: 50px;
-    left: 350px;
+    top: 51px;
+    left: 358px;
 }
 
 header.project ul li {
@@ -93,6 +93,7 @@ header.project ul li {
 }
 
 header.project ul li i {
+    display: none;
     margin: 0 5px 0 0;
 }
 
