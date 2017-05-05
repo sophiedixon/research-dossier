@@ -62,8 +62,8 @@ header.project img {
     width: 600px;
 }
 
-header.project video {
-    margin: 100px 0px 0px 0px;
+header.project .video {
+    margin: 150px 0px 0px 0px;
 }
 
 header.project h1 {
@@ -84,8 +84,8 @@ header.project ul.loci {
 }
 
 header.project ul.chorus {
-    top: 51px;
-    left: 358px;
+    top: 66px;
+    left: 359px;
 }
 
 header.project ul li {
