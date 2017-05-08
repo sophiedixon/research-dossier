@@ -1,3 +1,7 @@
+html, body {
+    text-align: center;
+}
+
 body {
     padding: 0;
     margin: 0;
@@ -36,6 +40,10 @@ a {
     text-decoration: none;
 }
 
+img {
+    border: 0;
+}
+
 .back {
     font-size: 0.8em;
 }
@@ -45,101 +53,102 @@ a {
     font-size: 0.9em;
 }
 
-header {
+#header {
     width: 600px;
     margin: auto;
     padding: 40px 0 0 0;
+    text-align: left;
 }
 
-header.project {
+#header.project {
     padding: 20px 0 0 0;
     position: relative;
 }
 
-header.project img {
+#header.project img {
     margin: 150px 0px 0px 0px;
     display: block;
     width: 600px;
 }
 
-header.project .video {
+#header.project .video {
     margin: 150px 0px 0px 0px;
 }
 
-header.project h1 {
+#header.project h1 {
     position: absolute;
     top: 60px;
 }
 
-header.project ul {
+#header.project ul {
     position: absolute;
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-header.project ul.loci {
+#header.project ul.loci {
     top: 92px;
     left: 262px;
 }
 
-header.project ul.chorus {
+#header.project ul.chorus {
     top: 66px;
     left: 359px;
 }
 
-header.project ul li {
+#header.project ul li {
     margin: 20px 0 20px 0;
 }
 
-header.project ul li i {
+#header.project ul li i {
     display: none;
     margin: 0 5px 0 0;
 }
 
-header.project ul li.one {
+#header.project ul li.one {
 }
 
-header.project ul li.two {
+#header.project ul li.two {
     margin-left: 18px;
 }
 
-header.project ul li.three {
+#header.project ul li.three {
     margin-left: 36px;
 }
 
-header.project ul li.four {
+#header.project ul li.four {
     margin-left: 54px;
 }
 
-header.project ul li.five {
+#header.project ul li.five {
     margin-left: 72px;
 }
 
-header.project ul li.six {
+#header.project ul li.six {
     margin-left: 90px;
 }
 
-header.project ul li.seven {
+#header.project ul li.seven {
     margin-left: 108px;
 }
 
-header.project ul li.eight {
+#header.project ul li.eight {
     margin-left: 126px;
 }
 
-header.project ul li.nine {
+#header.project ul li.nine {
     margin-left: 144px;
 }
 
-header.project ul li {
+#header.project ul li {
     font-weight: lighter;
     letter-spacing: 6px;
     font-size: 0.6em;
     white-space: nowrap;
 }
 
-header.project ul li a i {
+#header.project ul li a i {
     margin: 0 10px 0 0;
 }
 
@@ -188,11 +197,12 @@ blockquote {
     font-style: italic;
 }
 
-main {
+#main {
     width: 600px;
     margin: auto;
     overflow: hidden;
     padding: 40px 0 100px 0;
+    text-align: left;
 }
 
 #video {
@@ -203,10 +213,11 @@ main {
     
 }
 
-footer {
+#footer {
     width: 600px;
     margin: auto;
     padding: 0 0 40px 0;
+    text-align: left;
 }
 
 #accordion > div {
