@@ -4,12 +4,12 @@
     <head>
         <title>Sophie Dixon: Research Dossier</title>
         <link rel="stylesheet" type="text/css" href="styles.css" />
-        <link href='https://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
         <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
         <link href='https://cdnjs.cloudflare.com/ajax/libs/mediaelement/4.0.5/mediaelementplayer.css' rel='stylesheet' type='text/css'>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/4.0.5/mediaelement.min.js"></script>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/4.0.5/mediaelementplayer.js"></script>
+        <script type="text/javascript" src="scripts.js"></script>
     </head>
     <body>
 
@@ -21,7 +21,7 @@
         <div id="main">
 
             <div id="video">
-                <video width="600" height="338" src="https://sophiedixon-web-assets.s3.amazonaws.com/research-dossier/visual-abstract.mp4" />
+                <video class="mejs__player" poster="img/intro-poster.jpg" width="600" height="338" src="https://sophiedixon-web-assets.s3.amazonaws.com/research-dossier/visual-abstract.mp4" />
             </div>
 
             <div id="accordion">
@@ -75,8 +75,6 @@
 
             </div>
         </div>
-        
-        <script type="text/javascript" src="scripts.js"></script>
 
     </body>
 </html>
