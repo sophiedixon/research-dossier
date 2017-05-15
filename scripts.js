@@ -43,11 +43,11 @@ $(function() {
 
     openItem($("#accordion > a.open"));
 
-    $('video, audio').mediaelementplayer({
-        // Configuration
-        success: function(media) {
+    // $('video, audio').mediaelementplayer({
+    //     // Configuration
+    //     success: function(media) {
 
-        }
-    });
+    //     }
+    // });
 
 });
