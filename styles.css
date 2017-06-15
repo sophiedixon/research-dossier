@@ -153,17 +153,9 @@ img {
 }
 
 .rotate {
-
-    /* Safari */
     -webkit-transform: rotate(-30deg);
-
-    /* Firefox */
     -moz-transform: rotate(-30deg);
-
-    /* IE */
     -ms-transform: rotate(-30deg);
-
-    /* Opera */
     -o-transform: rotate(-30deg);
 }
 
@@ -276,10 +268,6 @@ p img {
 
 #projects a {
     float: left;
-}
-
-#projects a img {
-    width: 200px;
 }
 
 a.downloadpdf {
